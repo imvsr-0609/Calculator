@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171616"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="69"
+            android:textAlignment="textEnd"
+            android:textColor="#FBFBFB"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/textView"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center_vertical"
+            android:paddingRight="20dp"
+            android:text="123"
+            android:textAlignment="textEnd"
+            android:textColor="#A6A4A4"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_c"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:text="DEL"
+                android:textColor="#55B6E3"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonsqroot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="√"
+                android:textColor="#55B6E3"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonpercent"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="%"
+                android:textColor="#55B6E3"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttondiv"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="÷"
+                android:textColor="#55B6E3"
+                android:textSize="30sp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="7"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="@null"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="8"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="9"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonmul"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="x"
+                android:textColor="#55B6E3"
+                android:textSize="18sp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="@null"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="4"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:text="5"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="@null"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="6"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonsub"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="-"
+                android:textColor="#55B6E3"
+                android:textSize="36sp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="1"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="@null"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="2"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="3"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonadd"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#3A3535"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="+"
+                android:textColor="#55B6E3"
+                android:textSize="24sp">
+
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="@null"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="0"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttondot"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:paddingBottom="15dp"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="."
+                android:textAlignment="center"
+                android:textColor="#FBFBFB"
+                android:textSize="36sp"
+                android:textStyle="bold">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonfact"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="@null"
+                android:shadowColor="#FAF8F8"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:text="!"
+                android:textColor="#55B6E3"
+                android:textSize="24sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/buttonequal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ripple_effect"
+                android:backgroundTint="#31ADE4"
+                android:text="="
+                android:textColor="#ffffff"
+                android:textSize="24sp">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
